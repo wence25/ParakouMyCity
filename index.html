@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solutions numériques pour Parakou</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header avec Image et Paragraphe -->
+
+  <header>
+    <img src="gop.webp" alt="Image Parakou" class="header-img">
+    <p class="header-text">Participe à l'amélioration de Parakou en proposant des solutions numériques innovantes pour sa croissance et son développement. Remplis le formulaire ci-dessous pour partager tes idées !</p>
+  </header>
+
+  <div class="form-container">
+    <h2>Propose tes solutions numériques pour Parakou</h2>
+    <form action="https://formspree.io/f/mdkajwyz" method="POST">
+      
+      <label for="pseudo">Ton pseudo : <span class="required">*</span></label>
+      <input type="text" id="pseudo" name="pseudo" placeholder="Entrez votre pseudo ici" required>
+
+      <label for="solution1">Solution numérique 1 : <span class="required">*</span></label>
+      <textarea id="solution1" name="solution1" placeholder="Décrivez votre première solution numérique pour Parakou" required minlength="500" maxlength="3000"></textarea>
+      <small>minimum 500, maximum 3000</small>
+
+      <label for="solution2">Solution numérique 2 : <span class="required">*</span></label>
+      <textarea id="solution2" name="solution2" placeholder="Décrivez votre deuxième solution numérique pour Parakou" required minlength="500" maxlength="3000"></textarea>
+      <small>minimum 500, maximum 3000</small>
+
+      
+    </form>
+
+    <div>
+        <button type="submit">ENVOYER</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
