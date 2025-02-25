@@ -1,0 +1,104 @@
+body {
+  background-image: url(polo.jpg);
+  background-image: blur(8px);
+  backdrop-filter: blur(8px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+
+  
+  header {
+    text-align: center;
+    background: rgb(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    height: 200px;
+    padding: 10px;
+    width: 60%;
+    border-radius: 10px;
+  }
+  
+  .header-img {
+    width: 50%;
+    border-radius: 10px;
+    height: 100px;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .header-text {
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+  
+  .form-container {
+    background:linear-gradient(135deg, #4892e0, #00D4FF);
+    color: rgb(255, 255, 255);
+    font-weight: bold 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  h2 {
+    text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ffffff;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  input, textarea, placeholder {
+    width: 100%;
+    background: rgb(255, 255, 255, 0);
+    color:#ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  small {
+    font-size: 0.9em;
+    color: #000000;
+  }
+  
+  button {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  button:hover {
+    background:linear-gradient(135deg, #0366cf, #02768d);
+  }
+  
