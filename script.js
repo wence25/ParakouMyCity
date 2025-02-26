@@ -14,12 +14,12 @@ document.addEventListener("DOMContentLoaded", () => {
       }
   
       // Vérification du nombre de mots (environ 1 mot = 5 caractères)
-      if (solution1.split(' ').length < 500 || solution1.split(' ').length > 3000) {
-        alert("La Solution 1 doit contenir entre 500 et 3000 mots !");
+      if (solution1.split(' ').length < 50 || solution1.split(' ').length > 150) {
+        alert("La Solution 1 doit contenir entre 50 et 150 mots !");
         return;
       }
-      if (solution2.split(' ').length < 500 || solution2.split(' ').length > 3000) {
-        alert("La Solution 2 doit contenir entre 500 et 3000 mots !");
+      if (solution2.split(' ').length < 50 || solution2.split(' ').length > 150) {
+        alert("La Solution 2 doit contenir entre 50 et 150 mots !");
         return;
       }
   
